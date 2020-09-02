@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Button from './Button';
+import '../styles/ButtonPanel.scss';
 
-
-const lightorange = 'none';
+const lightorange = '#ffa64d';
 
 export default class ButtonPanel extends React.Component {
   constructor(props) {

@@ -1,0 +1,13 @@
+@import './variables.scss';
+
+.buttonSquare {
+  text-align: center;
+  color: $primary-text;
+  font-size: 1.6rem;
+  border: 1px solid $grey-color;
+
+  &:active {
+    background-color: $btn-click-color;
+    border: none;
+  }
+}

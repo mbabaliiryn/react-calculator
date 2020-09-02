@@ -1,7 +1,7 @@
 import React from 'react';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
-
+import '../styles/App.scss';
 import calculate from '../logic/calculate';
 
 export default class App extends React.Component {

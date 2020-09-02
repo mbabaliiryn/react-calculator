@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import '../styles/Button.scss';
 
 export default function Button({
   name, color, wide, clickHandler,
@@ -27,6 +27,6 @@ Button.propTypes = {
 
 Button.defaultProps = {
   name: '',
-  wide: 'none',
-  color: 'none',
+  wide: '25%',
+  color: '#d9d9d9',
 };

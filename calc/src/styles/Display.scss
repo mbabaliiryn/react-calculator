@@ -1,0 +1,13 @@
+@import './variables.scss';
+
+.displayContainer {
+  background-color: $grey-color;
+  height: 100px;
+  color: white;
+  font-weight: 900;
+  padding: 30px 20px;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 4rem;
+}

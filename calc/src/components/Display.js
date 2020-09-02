@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import '../styles/Display.scss';
 
 export default function Display(props) {
   const { total, next, operation } = props;
