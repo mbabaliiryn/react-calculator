@@ -5,6 +5,11 @@ This is my calculator app created with ReactJS.web site.
 ReactJS
 Buildpack (Heroku)
 
+## Screenshot
+
+![Screenshot from 2020-09-03 12-59-49](https://user-images.githubusercontent.com/44978186/92101207-74bc1b80-ede5-11ea-8e6a-57e5e3b991f1.png)
+
+
 ## LIVE VERSION
 [Live Version](https://arcane-everglades-02802.herokuapp.com/)
 
