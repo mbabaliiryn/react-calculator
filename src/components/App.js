@@ -24,7 +24,7 @@ export default class App extends React.Component {
   render() {
     const { total, next, operation } = this.state;
     return (
-      <div className="App" id="calculatorApp">
+    <div className="App" id="calculatorApp">
         <Display total={total || 0} next={next || 0} operation={operation} />
         <ButtonPanel clickHandler={this.handleClick} />
       </div>
