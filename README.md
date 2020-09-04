@@ -1,1 +1,38 @@
-# react-calculator
+## React Calculator
+This is my calculator app created with ReactJS.web site.
+
+## BUILT WITH
+ReactJS
+Buildpack (Heroku)
+
+## Screenshot
+
+![Screenshot from 2020-09-03 12-59-49](https://user-images.githubusercontent.com/44978186/92101207-74bc1b80-ede5-11ea-8e6a-57e5e3b991f1.png)
+
+
+
+## Author
+
+👤 Mbabali Iryn
+
+- Github: [@mbabaliiryn](https://github.com/mbabaliiryn)
+- Twitter: [@irynmbabali](https://twitter.com/irynmbabali)
+- Linkedln: [mbabaliiryn](https://www.linkedin.com/in/mbabaliiryn)
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+You can open a new issue on the [issues page](https://github.com/OlukaDenis/fitaita/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgements
+- [Microverse](https://www.microverse.org/)
+- [Freecodecamp](http://freecodecamp.org/)
+
+## 📝 License
+
+This project is licensed under MIT license - see [LICENSE](/LICENSE) for more details.
