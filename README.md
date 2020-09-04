@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-## React Calculator
-This is my calculator app created with ReactJS.web site.
-
-## BUILT WITH
-ReactJS
-Buildpack (Heroku)
-
-## Screenshot
-
-![Screenshot from 2020-09-03 12-59-49](https://user-images.githubusercontent.com/44978186/92101207-74bc1b80-ede5-11ea-8e6a-57e5e3b991f1.png)
-
-=======
 # react-calculator
 
 This is my calculator app created with ReactJS. 
@@ -18,11 +5,15 @@ This is my calculator app created with ReactJS.
 ## BUILT WITH
 - ReactJS
 - Buildpack (Heroku)
+
+
 ## LIVE VERSION
 
-[Live Version] (https://murmuring-bastion-99719.herokuapp.com/)
->>>>>>> 74b30dea5a27417f281137ceff8a5cad4b5fd28e
+[Phaser game link](https://mbabaliiryn.github.io/react-calculator/)
 
+## Screenshots
+
+![Screenshot from 2020-09-04 13-02-59](https://user-images.githubusercontent.com/44978186/92227459-fc219180-eeae-11ea-9120-97653b50b7e4.png)
 
 ## Author
 
