@@ -1,13 +1,12 @@
-# react-calculator
-
-This is my calculator app created with ReactJS. 
+## React Calculator
+This is my calculator app created with ReactJS.web site.
 
 ## BUILT WITH
-- ReactJS
-- Buildpack (Heroku)
-## LIVE VERSION
+ReactJS
+Buildpack (Heroku)
 
-[Live Version] (https://murmuring-bastion-99719.herokuapp.com/)
+## LIVE VERSION
+[Live Version](https://arcane-everglades-02802.herokuapp.com/)
 
 
 ## Author
@@ -29,9 +28,7 @@ You can open a new issue on the [issues page](https://github.com/OlukaDenis/fita
 Give a ⭐️ if you like this project!
 
 ## Acknowledgements
-
 - [Microverse](https://www.microverse.org/)
-- [The Odin Project](https://www.theodinproject.com/)
 - [Freecodecamp](http://freecodecamp.org/)
 
 ## 📝 License
