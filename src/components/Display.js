@@ -1,24 +1,21 @@
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import '../styles/Display.scss';
 
 export default function Display(props) {
-  const { total, next, operation } = props;
+  const { result } = props;
   return (
     <div className="displayContainer">
-      {operation ? next : total}
+      {result}
     </div>
   );
 }
 
 Display.defaultProps = {
-  total: '0',
-  next: '0',
-  operation: '0',
+  result: '0',
 };
 
 Display.propTypes = {
-  total: PropTypes.string,
-  next: PropTypes.string,
-  operation: PropTypes.string,
+  result: PropTypes.string,
 };
