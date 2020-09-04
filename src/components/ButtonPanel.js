@@ -1,59 +1,39 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Button from './Button';
 
 
-const lightorange = 'none';
-
-export default class ButtonPanel extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  handleClick(buttonName) {
-    const { clickHandler } = this.props;
-    return clickHandler(buttonName);
-  }
-
-  render() {
-    return (
-      <div className="buttonPanel">
-        <div className="groupOne">
-          <Button wide={false} name="AC" clickHandler={this.handleClick} />
-          <Button wide={false} name="+/-" clickHandler={this.handleClick} />
-          <Button wide={false} name="%" clickHandler={this.handleClick} />
-          <Button wide={false} color={lightorange} name="÷" clickHandler={this.handleClick} />
-        </div>
-        <div className="groupTwo">
-          <Button wide={false} name="7" clickHandler={this.handleClick} />
-          <Button wide={false} name="8" clickHandler={this.handleClick} />
-          <Button wide={false} name="9" clickHandler={this.handleClick} />
-          <Button wide={false} color={lightorange} name="x" clickHandler={this.handleClick} />
-        </div>
-        <div className="groupThree">
-          <Button wide={false} name="4" clickHandler={this.handleClick} />
-          <Button wide={false} name="5" clickHandler={this.handleClick} />
-          <Button wide={false} name="6" clickHandler={this.handleClick} />
-          <Button wide={false} color={lightorange} name="-" clickHandler={this.handleClick} />
-        </div>
-        <div className="groupFour">
-          <Button wide={false} name="1" clickHandler={this.handleClick} />
-          <Button wide={false} name="2" clickHandler={this.handleClick} />
-          <Button wide={false} name="3" clickHandler={this.handleClick} />
-          <Button wide={false} color={lightorange} name="+" clickHandler={this.handleClick} />
-        </div>
-        <div className="groupFive">
-          <Button wide name="0" clickHandler={this.handleClick} />
-          <Button wide={false} name="." clickHandler={this.handleClick} />
-          <Button wide={false} color={lightorange} name="=" clickHandler={this.handleClick} />
-        </div>
+export default function ButtonPanel() {
+  return (
+    <div className="buttonPanel">
+      <div className="groupOne">
+        <Button name="AC" />
+        <Button name="+/-" />
+        <Button name="%" />
+        <Button name="÷" />
       </div>
-    );
-  }
+      <div className="groupTwo">
+        <Button name="7" />
+        <Button name="8" />
+        <Button name="9" />
+        <Button name="X" />
+      </div>
+      <div className="groupThree">
+        <Button name="4" />
+        <Button name="5" />
+        <Button name="6" />
+        <Button name="-" />
+      </div>
+      <div className="groupFour">
+        <Button name="1" />
+        <Button name="2" />
+        <Button name="3" />
+        <Button name="+" />
+      </div>
+      <div className="groupFive">
+        <Button name="0" />
+        <Button name="." />
+        <Button name="=" />
+      </div>
+    </div>
+  );
 }
-
-ButtonPanel.propTypes = {
-  clickHandler: PropTypes.func.isRequired,
-};
