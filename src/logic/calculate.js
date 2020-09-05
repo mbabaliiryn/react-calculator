@@ -1,20 +1,19 @@
 import operate from './operate';
 
-export default function calculate(calcObject, buttonName) {
-  let { total, next, operation } = calcObject;
+export default function calculate(calculate, buttonName) {
+  let { total, next, operation } = calculate;
   const symbols = ['-', '+', '÷', 'x'];
   const numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
   if (buttonName === 'AC') {
-    [total, next, operation] = [null, null, null];
+    total = null;
+    next = null;
+    operation = null;
   }
 
   if (buttonName === '+/-') {
-    if (total && next == null) {
-      total = (total * (-1)).toString();
-      next = null;
-    }
-    if (total && next) {
+    total = (total * (-1)).toString();
+    if (total) {
       next = (next * (-1)).toString();
     }
   }
@@ -24,26 +23,18 @@ export default function calculate(calcObject, buttonName) {
     operation = '%';
   }
 
-  if (buttonName === '.') {
-    if (total.length === 1) {
-      total += buttonName;
-    }
+  if (symbols.includes(buttonName)) {
+    operation = buttonName;
+  } else if (numbers.includes(buttonName)) {
+    total = total ? total + buttonName : buttonName;
+  } else if (operation && numbers.includes(buttonName)) {
+    next = next ? next + buttonName : buttonName;
   }
 
   if (buttonName === '=') {
-    if (total && next && operation) {
-      total = operate(total, next, operation);
-      next = total;
-      operation = null;
-    }
-  }
-
-  if (symbols.includes(buttonName)) {
-    operation = buttonName;
-  } else if (operation && numbers.includes(buttonName)) {
-    next = next ? next + buttonName : buttonName;
-  } else if (numbers.includes(buttonName)) {
-    total = total ? total + buttonName : buttonName;
+    total = operate(total, next, operation);
+    next = null;
+    operation = null;
   }
 
   return { total, next, operation };

@@ -6,7 +6,7 @@ import '../styles/App.scss';
 export default function App() {
   return (
     <div className="App" id="calculatorApp">
-      <Display result="10" />
+      <Display result="0" />
       <ButtonPanel />
     </div>
   );
