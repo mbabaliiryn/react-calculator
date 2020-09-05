@@ -34,19 +34,11 @@ You can open a new issue on the [issues page](https://github.com/OlukaDenis/fita
 Give a ⭐️ if you like this project!
 
 ## Acknowledgements
-<<<<<<< HEAD
-- [Microverse](https://www.microverse.org/)
-=======
 
 - [Microverse](https://www.microverse.org/)
 - [The Odin Project](https://www.theodinproject.com/)
->>>>>>> 74b30dea5a27417f281137ceff8a5cad4b5fd28e
 - [Freecodecamp](http://freecodecamp.org/)
 
 ## 📝 License
 
-<<<<<<< HEAD
 This project is licensed under MIT license - see [LICENSE](/LICENSE) for more details.
-=======
-This project is licensed under MIT license - see [LICENSE](/LICENSE) for more details.
->>>>>>> 74b30dea5a27417f281137ceff8a5cad4b5fd28e
