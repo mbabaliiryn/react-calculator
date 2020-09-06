@@ -2,19 +2,21 @@ import BigJs from 'big.js/big';
 
 export default function operate(numberOne, numberTwo, operation) {
   let result = null;
+  const num1 = BigJs(numberOne);
+  const num2 = BigJs(numberTwo);
 
   switch (operation) {
     case '+':
-      result = BigJs(numberOne).plus(BigJs(numberTwo)).toString();
+      result = num1.plus(num2).toString();
       break;
     case '-':
-      result = BigJs(numberOne).minus(BigJs(numberTwo)).toString();
+      result = num1.minus(num2).toString();
       break;
     case 'x':
-      result = BigJs(numberOne).times(BigJs(numberTwo)).toString();
+      result = num1.times(num2).toString();
       break;
     case '÷':
-      result = BigJs(numberTwo).eq(0) ? NaN : BigJs(numberOne).div(BigJs(numberTwo)).toString();
+      result = num2.eq(0) ? NaN : num1.div(num2).toString();
       break;
     default:
       break;
