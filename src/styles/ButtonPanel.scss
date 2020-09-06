@@ -1,0 +1,14 @@
+@import './variables.scss';
+
+.buttonPanel {
+  display: flex;
+  flex-direction: column;
+
+  & > * {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    height: 100px;
+    border: none;
+  }
+}
