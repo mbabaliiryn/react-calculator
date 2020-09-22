@@ -13,7 +13,7 @@ This is my calculator app created with ReactJS.
 
 ## Screenshots
 
-![Screenshot from 2020-09-05 17-00-01](https://user-images.githubusercontent.com/44978186/92306728-0b313e00-ef9a-11ea-9052-d444b2cbc8f4.png)
+![Screenshot from 2020-09-21 12-07-39](https://user-images.githubusercontent.com/44978186/93749754-1f647480-fc03-11ea-8cf1-6de3403126e8.png)
 
 ## Author
 
